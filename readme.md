@@ -80,6 +80,3 @@ text to query framework
 
 
 `python dbpedia/main.py "Who is Tom Cruise?"`
-
-
-# DARA
