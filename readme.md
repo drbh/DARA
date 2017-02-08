@@ -5,10 +5,11 @@ Natural language queries into automaed finings. With the goal to start conversat
 
 Example: How many students are in Markeing at WP Carey
 
-##### Reason for development
 
-##### Notable available products
-
+**Reason for development**  
+We want to create conversations with our data. This can help ease the work that business intelligence developers have when examining lage amounts of data. A conversational system also allows for rapid brainstorming and question asking. Moving more focus on the value the data has and not the efforts to mine said data.
+ 
+**Notable available products**
 Power BI Q@A is a Microsoft product that helps translate nautral language to automated reporting within Power BI models.
 
 Kueri allows users to navigate, explore, and present their Salesforce data with using a Google style as-you-type auto-complete suggestions. [http://kueri.me/](http://kueri.me/])
