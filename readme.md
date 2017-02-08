@@ -1,6 +1,6 @@
 # DARA
 
-##### Automated data retrevial system.
+**Automated data retrevial system**  
 Natural language queries into automaed finings. With the goal to start conversations with data across many tables in an intelligent way. 
 
 Example: How many students are in Markeing at WP Carey
@@ -9,7 +9,7 @@ Example: How many students are in Markeing at WP Carey
 **Reason for development**  
 We want to create conversations with our data. This can help ease the work that business intelligence developers have when examining lage amounts of data. A conversational system also allows for rapid brainstorming and question asking. Moving more focus on the value the data has and not the efforts to mine said data.
  
-**Notable available products**
+**Notable available products**  
 Power BI Q@A is a Microsoft product that helps translate nautral language to automated reporting within Power BI models.
 
 Kueri allows users to navigate, explore, and present their Salesforce data with using a Google style as-you-type auto-complete suggestions. [http://kueri.me/](http://kueri.me/])
@@ -60,19 +60,24 @@ This is not a complex function of the system. However additional logic must be a
 ### Semantic Parksing Approaches
 
 
-##### Text tagging 
+**Text tagging**  
 
 Large syntax labeled text files exists and models are trained on the labels and text. 
 
-##### Vector representation
+**Vector representation**  
 
-##### Google Cloud Natural Language API
+This is the most efficent and cutting edge method for extracting meaning out of text. By abstracting each word to a vector in a extremly high dimentional space, a naive understanding of the relationship between words and thier individual meaning can be extracted. Googls Word2Vec impementation is an amazing example of this extact phenom. After deriving the meaning of words (as a set of complex vectors) these computer generated features (vectors) can be fed into an online classifcation model. This classifcaiton model would reduce the meanings of words into consise intent that is based off of the meaning of the words. This is the leading way seach engines derive your actual meaning from 
+
+
+**Google Cloud Natural Language API**  
+
+Google as usual offers this as a service. A great one too. This service I assume uses the same technologies as mentioned above, vector representation and the intent classifcation. However this is trained over a massive corpus and backed with the reliabilty of Googles APIs. 
 
 [Example usage](https://cloud.google.com/blog/big-data/2016/07/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
 
 ### Information retrevial Approaches
 
-
+This section just refers to seraching through metadata. 
 
 ### Building query approaches
 
